@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="core.MethodAnnotationsCencept">
+      <class name="test.BrowserLaunch">
         <methods>
-          <include name="afterMethod"/>
-          <include name="loginTwo"/>
-          <include name="beforeMethod"/>
+          <include name="launchBrowserChromeAndFirefox"/>
         </methods>
-      </class> <!-- core.MethodAnnotationsCencept -->
+      </class> <!-- test.BrowserLaunch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

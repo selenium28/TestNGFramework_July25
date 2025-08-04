@@ -1,24 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T20:59:37 IST" name="Suite" finished-at="2025-07-31T20:59:47 IST" duration-ms="10094">
+  <suite started-at="2025-08-04T20:48:40 IST" name="Default suite" finished-at="2025-08-04T20:49:09 IST" duration-ms="28936">
     <groups>
     </groups>
-    <test started-at="2025-07-31T20:59:37 IST" name="Test" finished-at="2025-07-31T20:59:47 IST" duration-ms="10094">
-      <class name="test.BrowserLaunchUsingParametrization">
-        <test-method signature="launchBrowserChromeAndFirefox(java.lang.String)[pri:0, instance:test.BrowserLaunchUsingParametrization@35ef1869]" started-at="2025-07-31T20:59:37 IST" name="launchBrowserChromeAndFirefox" finished-at="2025-07-31T20:59:47 IST" duration-ms="10008" status="PASS">
+    <test started-at="2025-08-04T20:48:40 IST" name="Default test" finished-at="2025-08-04T20:49:09 IST" duration-ms="28936">
+      <class name="data.LoginByUsingDataProvider">
+        <test-method signature="loginMethod(java.lang.String,java.lang.String)[pri:0, instance:data.LoginByUsingDataProvider@243c4f91]" started-at="2025-08-04T20:48:40 IST" name="loginMethod" data-provider="dp" finished-at="2025-08-04T20:48:51 IST" duration-ms="10853" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowserChromeAndFirefox -->
-      </class> <!-- test.BrowserLaunchUsingParametrization -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginMethod -->
+        <test-method signature="loginMethod(java.lang.String,java.lang.String)[pri:0, instance:data.LoginByUsingDataProvider@243c4f91]" started-at="2025-08-04T20:48:51 IST" name="loginMethod" data-provider="dp" finished-at="2025-08-04T20:48:59 IST" duration-ms="7999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPAss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method signature="loginMethod(java.lang.String,java.lang.String)[pri:0, instance:data.LoginByUsingDataProvider@243c4f91]" started-at="2025-08-04T20:48:59 IST" name="loginMethod" data-provider="dp" finished-at="2025-08-04T20:49:09 IST" duration-ms="9833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WrongUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+      </class> <!-- data.LoginByUsingDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

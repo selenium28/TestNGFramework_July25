@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.BrowserLaunch">
+      <class name="data.LoginByUsingDataProvider">
         <methods>
-          <include name="launchBrowserChromeAndFirefox"/>
+          <include name="loginMethod"/>
         </methods>
-      </class> <!-- test.BrowserLaunch -->
+      </class> <!-- data.LoginByUsingDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
